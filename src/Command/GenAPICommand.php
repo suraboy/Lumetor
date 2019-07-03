@@ -13,7 +13,7 @@ class GenAPICommand extends Command
      *
      * @var string
      */
-    protected $signature = 'samark:genfile';
+    protected $signature = 'boynii:genfile';
 
     /**
      * The console command description.

@@ -27,7 +27,7 @@
         ],
         "psr-0":
         {
-            "Samark\\Lumpineevill\\": "src/"
+            "Boynii\\Lumpineevill\\": "src/"
         },
         "files": [
             "src/Helper/curl.php"
@@ -37,7 +37,7 @@
     {
         "psr-0":
         {
-            "Samark\\Lumpineevill\\Tests\\": "tests"
+            "Boynii\\Lumpineevill\\Tests\\": "tests"
         }
     }
 }
