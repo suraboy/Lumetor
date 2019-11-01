@@ -18,7 +18,7 @@ For repository patten design under `Laravel framework`
 - can generate migration file
 # Installation 
 ```php
-composer require samark/lumpineevill 
+composer require boynii/lumpineevill 
 ```
 # Laravel 5.*: Serviceprovider
 If you don't use auto-discovery, add the ServiceProvider to the providers array in config/app.php
@@ -27,18 +27,18 @@ Lumpineevill\ServiceProvider\LumpineevillServiceProvider::class
 ```
 # Command
 ```php
-$ php artisan samark:genfile 
-$ php artisan samark:genfront
+$ php artisan boynii:genfile 
+$ php artisan boynii:genfront
 ```
 # copy environment
  append `.env` file 
 ```php
-$ php samark:copy-env  
+$ php boynii:copy-env  
 ```
 # copy migration file
 for copy migration file to dastabase/migrations/
 ```php
-$ php samark:copy-migration 
+$ php boynii:copy-migration 
 ```
 # publishes vendor config 
 ```php 
