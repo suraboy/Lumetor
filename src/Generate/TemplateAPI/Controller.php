@@ -20,7 +20,10 @@ class {replace}Controller extends Controller
      */
     protected ${replace_sm};
 
-
+    /**
+     * set {replace_sm} transform
+     * @var object
+     */
     protected ${relace_tm};
 
     /**
