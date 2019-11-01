@@ -1,8 +1,4 @@
 <?php
-/**
- * @author samark chaisanguan
- * @email samarkchsngn@gmail.com
- */
 namespace Lumpineevill\Generate;
 
 use Illuminate\Support\Facades\Artisan;
@@ -17,7 +13,7 @@ class GenerateAPI extends GenerateFile
 
         'Controller' => [
             'resource' => 'TemplateAPI/Controller.php',
-            'target' => 'app/Http/Controllers/',
+            'target' => 'app/Http/Controllers/V1',
         ],
         'Request' => [
             'resource' => 'TemplateAPI/Request.php',
@@ -29,16 +25,20 @@ class GenerateAPI extends GenerateFile
         ],
         'Repository' => [
             'resource' => 'TemplateAPI/Repository.php',
-            'target' => 'app/Repository/',
+            'target' => 'app/Repositories/',
         ],
         'Interface' => [
             'resource' => 'TemplateAPI/Interface.php',
-            'target' => 'app/Repository/',
+            'target' => 'app/Interfaces/',
         ],
         'Route' => [
             'resource' => 'TemplateAPI/Route.php',
             'target' => 'routes/',
         ],
+        'Transformer' => [
+            'resource' => 'TemplateAPI/Transformers.php',
+            'target' => 'app/Transformers/',
+        ]
 
     ];
 
