@@ -1,16 +1,16 @@
 {
-  "name": "boynii/lumpineevill",
-  "description": "Laravel Generator , For api base CRUD , Management request , handler response with JSON.",
+  "name": "boynii/horeca-api-generator",
+  "description": "For lumen rest api with repository patten",
   "type": "library",
   "license": "MIT",
   "authors": [
     {
-      "name": "Samark Chaisanguan",
-      "email": "samarkchsngn@gmail.com"
+      "name": "boy",
+      "email": "sirichai.jan@ascendcorp.com"
     },
     {
-      "name": "Sirichai Janpan",
-      "email": "sirichai.jan@ascendcorp.com"
+      "name": "mark",
+      "email": "Samark.Cha@ascendcorp.com"
     }
   ],
   "minimum-stability": "stable",
@@ -28,15 +28,12 @@
       "src/"
     ],
     "psr-0": {
-      "boynii\\Lumpineevill\\": "src/"
-    },
-    "files": [
-      "src/Helper/curl.php"
-    ]
+      "Boynii\\HorecaApiGenerator\\": "src/"
+    }
   },
   "autoload-dev": {
     "psr-0": {
-      "boynii\\Lumpineevill\\Tests\\": "tests"
+      "Boynii\\HorecaApiGenerator\\Tests\\": "tests"
     }
   }
 }

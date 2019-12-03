@@ -1,3 +1,2 @@
 /vendor
-/tests/codeCoverage/*
-composer.lock
+test.php

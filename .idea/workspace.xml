@@ -2,8 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62a1371b-5189-4bd0-b592-5075516406dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generate/GenerateFile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generate/config/generate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generate/template/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generate/template/Factory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generate/template/Interface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generate/template/Lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generate/template/Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generate/template/Repository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generate/template/Request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generate/template/Route.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generate/template/Seeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generate/template/Tests.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generate/template/V2/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generate/template/V2/Repository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generate/template/V2/Route.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/provider/LumenApiGeneratorProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Command/GenFrontCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Command/GenFrontCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaseRepository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaseRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/GenAPICommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/command/GenerateFileCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command/GenFrontCommand.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Config/Form.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Config/front.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Contract/BaseRepositoryInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/BaseGenerateFile.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/ExampleGenfile.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/GenerateAPI.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/GenerateFile.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/GenerateFront.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/GenfileInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/generate/GenerateFileInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateAPI/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateAPI/Interface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateAPI/Model.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateAPI/Repository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateAPI/Request.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateAPI/Route.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateAPI/Transform.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/generate/template/Transformer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateBackoffice/Config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateBackoffice/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateBackoffice/Interface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateBackoffice/Model.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateBackoffice/Repository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateBackoffice/Request.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateBackoffice/Route.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateFront/AjaxRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateFront/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateFront/Interface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateFront/PostRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateFront/Repository.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateFront/Request.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateFront/Route.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateFront/view/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateFront/view/detail.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateFront/view/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateFront/view/list.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateFront/view/script.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generate/TemplateFront/view/style.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Helper/curl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Http/Routing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Libraries/Benchmark.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Request/APIRequest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ServiceProvider/LumpineevillServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +76,24 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -33,27 +111,18 @@
         <option value="$PROJECT_DIR$/src/Generate/TemplateAPI/Transform.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/Generate/TemplateAPI/Controller.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Command/GenFrontCommand.php" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/horeca_genfile.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/php.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/src/command/GenerateFileCommand.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1440" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="811" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -77,7 +146,13 @@
               <item name="horeca_genfile" type="b2602c69:ProjectViewProjectNode" />
               <item name="horeca_genfile" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Command" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="horeca_genfile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="horeca_genfile" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="generate" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -91,6 +166,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -115,16 +195,18 @@
       <option name="presentableId" value="Default" />
       <updated>1572583342081</updated>
       <workItem from="1572583343482" duration="3726000" />
+      <workItem from="1575348043169" duration="210000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4539000" />
+    <option name="totallyTimeSpent" value="4749000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="811" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="808" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -149,13 +231,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Generate/GenerateFile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-926">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Generate/TemplateAPI/Transform.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -261,13 +336,6 @@
     <entry file="file://$PROJECT_DIR$/phpunit.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Generate/TemplateBackoffice/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -294,11 +362,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Command/GenAPICommand.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="255">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
           <folding>
             <element signature="e#40#71#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generate/GenerateFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-819">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/command/GenerateFileCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
         </state>
       </provider>
     </entry>
