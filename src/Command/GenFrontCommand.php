@@ -13,7 +13,7 @@ class GenFrontCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'samark:genfront';
+    protected $signature = 'boynii:genfront';
 
     /**
      * The console command description.

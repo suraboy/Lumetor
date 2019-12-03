@@ -28,7 +28,7 @@
       "src/"
     ],
     "psr-0": {
-      "Boynii\\Lumpineevill\\": "src/"
+      "boynii\\Lumpineevill\\": "src/"
     },
     "files": [
       "src/Helper/curl.php"
@@ -36,7 +36,7 @@
   },
   "autoload-dev": {
     "psr-0": {
-      "Boynii\\Lumpineevill\\Tests\\": "tests"
+      "boynii\\Lumpineevill\\Tests\\": "tests"
     }
   }
 }
