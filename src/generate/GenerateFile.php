@@ -343,7 +343,7 @@ class GenerateFile implements GenerateFileInterface
         $file = str_replace(array("{replace_sm}"), $this->replaceSmall, $file);
         $file = str_replace(array("{replace_snc}"), $this->replaceSnake, $file);
         $file = str_replace(array("{replace_url}"), $this->replaceUrl, $file);
-        $file = str_replace(array("{action}"), strtolower($this->action), $file);
+        $file = str_replace(array("{action}"), ucfirst($this->action), $file);
         $file = str_replace(array("{controller_namespace}"), $this->controllerNamespace, $file);
         $file = str_replace(array("{repository}"), $this->repositoryNamespace, $file);
         return $file;
