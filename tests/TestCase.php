@@ -1,6 +1,6 @@
 <?php
 
-namespace Samark\Lumpineevill\Tests;
+namespace Boynii\Lumetor\Tests;
 
 class TestCase extends \PHPUnit_Framework_TestCase
 {

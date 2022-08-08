@@ -1,6 +1,6 @@
 <?php
 
-namespace LumenApiGenerator\Generate;
+namespace Lumetor\Generate;
 
 interface GenerateFileInterface
 {

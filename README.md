@@ -1,4 +1,4 @@
-# Lumen Generator v.1.0.6.*
+# Lumetor v1.0.1
 For repository patten design under `lumen framework`
 # Feature 
 - can install via `composer`
@@ -17,12 +17,17 @@ For repository patten design under `lumen framework`
 - can generate migration file
 # Installation 
 ```php
-composer require boynii/lumen-generator
+composer require boynii/Lumetor
 ```
+# Register Provider
+If you don't use auto-discovery, add the Provider to the providers array in bootstrap/app.php
+```php
+$app->register(Lumetor\Provider\LumetorProvider::class);
+```
+
 # Command
 ```php
-$ php artisan boynii:genfile 
-$ php artisan boynii:genfront
+$ php artisan boynii:genfile
 ```
 # copy environment
  append `.env` file 

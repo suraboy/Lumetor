@@ -1,6 +1,6 @@
 <?php
 
-namespace LumenApiGenerator\Command;
+namespace Lumetor\Command;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Log;

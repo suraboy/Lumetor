@@ -24,12 +24,12 @@
       "src/"
     ],
     "psr-0": {
-      "Boynii\\LumenGenerator\\": "src/"
+      "Boynii\\Lumetor\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-0": {
-      "Boynii\\LumenGenerator\\Tests\\": "tests"
+      "Boynii\\Lumetor\\Tests\\": "tests"
     }
   }
 }
