@@ -25,7 +25,7 @@ return array(
         ),
         'Repository'         => array(
             'resource' => 'template/Interface.php',
-            'target'   => 'app/Interfaces/',
+            'target'   => 'app/Repositories/',
             'needDir'  => false,
         ),
         'Route'              => array(

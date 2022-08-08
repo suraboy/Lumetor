@@ -110,8 +110,8 @@ class GenerateFile implements GenerateFileInterface
         ),
         'Repository'         => array(
             'resource' => 'template/Interface.php',
-            'target'   => 'app/Interfaces/',
-            'needDir'  => false,
+            'target'   => 'app/Repositories/',
+            'needDir'  => true,
         ),
         'Route'              => array(
             'resource' => 'template/Route.php',
