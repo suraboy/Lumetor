@@ -1,4 +1,4 @@
-# Lasalle Generator v.1.0.6.*
+# Lumen Generator v.1.0.6.*
 For repository patten design under `lumen framework`
 # Feature 
 - can install via `composer`
@@ -17,7 +17,7 @@ For repository patten design under `lumen framework`
 - can generate migration file
 # Installation 
 ```php
-composer require boynii/lasallez
+composer require boynii/lumen-generator
 ```
 # Command
 ```php
