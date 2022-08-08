@@ -1,5 +1,5 @@
 {
-  "name": "boynii/horeca-api-generator",
+  "name": "boynii/lumen-generator",
   "description": "For lumen rest api with repository patten",
   "type": "library",
   "license": "MIT",
@@ -7,10 +7,6 @@
     {
       "name": "boy",
       "email": "sirichai.jan@ascendcorp.com"
-    },
-    {
-      "name": "mark",
-      "email": "Samark.Cha@ascendcorp.com"
     }
   ],
   "minimum-stability": "stable",
@@ -28,12 +24,12 @@
       "src/"
     ],
     "psr-0": {
-      "Boynii\\HorecaApiGenerator\\": "src/"
+      "Boynii\\LumenGenerator\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-0": {
-      "Boynii\\HorecaApiGenerator\\Tests\\": "tests"
+      "Boynii\\LumenGenerator\\Tests\\": "tests"
     }
   }
 }

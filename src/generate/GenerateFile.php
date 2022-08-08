@@ -94,9 +94,9 @@ class GenerateFile implements GenerateFileInterface
         ),
         'Controller'         => array(
             'resource'  => 'template/Controller.php',
-            'target'    => 'app/Http/Controllers/API/V1/',
+            'target'    => 'app/Http/Controllers/',
             'needDir'   => true,
-            'namespace' => 'App\Http\Controllers\API\V1',
+            'namespace' => 'App\Http\Controllers',
         ),
         'Model'              => array(
             'resource' => 'template/Model.php',

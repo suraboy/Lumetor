@@ -9,7 +9,7 @@ return array(
         ),
         'Controller'         => array(
             'resource'  => 'template/Controller.php',
-            'target'    => 'app/Http/Controllers/V1/',
+            'target'    => 'app/Http/Controllers/',
             'namespace' => 'App/',
             'needDir'   => false,
         ),
@@ -29,7 +29,7 @@ return array(
             'needDir'  => false,
         ),
         'Route'              => array(
-            'resource' => 'template/V2/Route.php',
+            'resource' => 'template/Route.php',
             'target'   => 'Routes/',
             'needDir'  => true,
         ),

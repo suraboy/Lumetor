@@ -1,6 +1,5 @@
-[![Build Status](https://travis-ci.org/maxca/Lumpineevill.svg)](https://travis-ci.org/maxca/Lumpineevill)
-# Lumpineevill v.1.0.6.*
-For repository patten design under `Laravel framework`
+# Lasalle Generator v.1.0.6.*
+For repository patten design under `lumen framework`
 # Feature 
 - can install via `composer`
 - can create update delete search all ,where like ,find by id , filter language 
@@ -18,12 +17,7 @@ For repository patten design under `Laravel framework`
 - can generate migration file
 # Installation 
 ```php
-composer require boynii/lumpineevill 
-```
-# Laravel 5.*: Serviceprovider
-If you don't use auto-discovery, add the ServiceProvider to the providers array in config/app.php
-```php
-Lumpineevill\ServiceProvider\LumpineevillServiceProvider::class
+composer require boynii/lasallez
 ```
 # Command
 ```php
@@ -39,8 +33,4 @@ $ php boynii:copy-env
 for copy migration file to dastabase/migrations/
 ```php
 $ php boynii:copy-migration 
-```
-# publishes vendor config 
-```php 
-$ php artisan vendor:publish --provider="Lumpineevill\ServiceProvider\LumpineevillServiceProvider"
 ```
