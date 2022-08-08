@@ -25,7 +25,10 @@
     ],
     "psr-0": {
       "Boynii\\Lumetor\\": "src/"
-    }
+    },
+    "files": [
+      "src/Helper/helpers.php"
+    ]
   },
   "autoload-dev": {
     "psr-0": {
