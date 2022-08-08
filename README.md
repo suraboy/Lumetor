@@ -22,7 +22,7 @@ composer require boynii/Lumetor
 # Register Provider
 If you don't use auto-discovery, add the Provider to the providers array in bootstrap/app.php
 ```php
-$app->register(Lumetor\Provider\LumetorProvider::class);
+$app->register(Lumetor\ServiceProviders\LumetorProvider::class);
 ```
 
 # Command
