@@ -1,5 +1,5 @@
 {
-  "name": "boynii/lumen-generator",
+  "name": "boynii/lumetor",
   "description": "For lumen rest api with repository patten",
   "type": "library",
   "license": "MIT",
