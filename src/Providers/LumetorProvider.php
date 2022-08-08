@@ -10,7 +10,7 @@ use Illuminate\Support\ServiceProvider;
  * @package Lumetor\Providers
  * @author mr.sirichai janpan <13_oy@hotmail.co.th>
  */
-class LumetorsProvider extends ServiceProvider
+class LumetorProvider extends ServiceProvider
 {
     /**
      * @var string[]
