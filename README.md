@@ -19,11 +19,45 @@ For repository patten design under `lumen framework`
 ```php
 composer require boynii/Lumetor
 ```
-# Register Provider
-If you don't use auto-discovery, add the Provider to the providers array in bootstrap/app.php
+# To register a service provider.
+add the Provider to the providers array in bootstrap/app.php
 ```php
 $app->register(Lumetor\Providers\LumetorProvider::class);
 ```
+#Recommend***
+You can add helpers folder in app folder and add helpers.php
+```php
+<?php
+if ( ! function_exists('config_path'))
+{
+    /**
+     * Get the configuration path.
+     *
+     * @param  string $path
+     * @return string
+     */
+    function config_path($path = '')
+    {
+        return app()->basePath() . '/config' . ($path ? '/' . $path : $path);
+    }
+}
+```
+then add this to composer.json
+```php
+"autoload": {
+    "psr-4": {
+        "App\\": "app/"
+    },
+    "files": [
+        "app/helpers/helpers.php"
+    ]
+},
+```
+then run,
+```
+composer dump-autoload
+```
+
 
 # Command
 ```php

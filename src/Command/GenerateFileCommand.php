@@ -4,7 +4,7 @@ namespace Lumetor\Command;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Log;
-use LumenApiGenerator\Generate\GenerateFile;
+use Lumetor\Generate\GenerateFile;
 
 class GenerateFileCommand extends Command
 {
