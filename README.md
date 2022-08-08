@@ -24,7 +24,7 @@ add the Provider to the providers array in bootstrap/app.php
 ```php
 $app->register(Lumetor\Providers\LumetorProvider::class);
 ```
-#Recommend
+# Recommend
 You can add helpers folder in app folder and add helpers.php
 ```php
 <?php
